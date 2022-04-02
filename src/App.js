@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function App(){
+function App() {
   let [ counter, changeCounter ] = useState(1)
   window.changeCounter = changeCounter
   return (
